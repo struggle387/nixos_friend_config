@@ -16,7 +16,7 @@
           {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
-            home-manager.users.alice = ./home.nix;
+            home-manager.users.usr = ./home.nix;
           }
         ];
       };
